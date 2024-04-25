@@ -1,4 +1,4 @@
-// import Navbar from "../navbar/Navbar";
+import Navbar from "../navbar/Navbar";
 import Searchform from "../searchform/Searchform";
 import "./header.css";
 
@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="holder">
       <div className="header">
-        {/* <Navbar /> */}
+     
         <div className="header-content flex flex-c text-center text-white">
           <h2 className="header-title text-capitalize">
             find your book of choice.
@@ -33,6 +33,15 @@ const Header = () => {
             fugit ipsam ab nisi at asperiores delectus? Cumque, deleniti nisi.
           </p>
           <Searchform />
+          <h1>Hello</h1>
+          <h1>Hello</h1>
+          <h1>Hello</h1>
+          <h1>Hello</h1>
+          <h1>Hello</h1>
+          <h1>Hello</h1>
+          <h1>Hello</h1>
+          <h1>Hello</h1>
+          <h1>Hello</h1>
         </div>
       </div>
     </div>
